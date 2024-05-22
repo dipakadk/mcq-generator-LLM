@@ -3,5 +3,7 @@ langchain_community
 langchain_openai
 python-dotenv
 streamlit
-
+pymupdf
+google-generativeai
+langchain_google_genai
 -e .
