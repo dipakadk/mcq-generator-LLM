@@ -1,8 +1,8 @@
-prefix=D:/MCQ-GENERATOR/mcq_generator/Library
-exec_prefix=D:/MCQ-GENERATOR/mcq_generator/Library
-libdir=D:/MCQ-GENERATOR/mcq_generator/Library/lib
-sharedlibdir=D:/MCQ-GENERATOR/mcq_generator/Library/lib
-includedir=D:/MCQ-GENERATOR/mcq_generator/Library/include
+prefix=d:/MCQ-GENERATOR/mcq_generator/Library
+exec_prefix=d:/MCQ-GENERATOR/mcq_generator/Library
+libdir=d:/MCQ-GENERATOR/mcq_generator/Library/lib
+sharedlibdir=d:/MCQ-GENERATOR/mcq_generator/Library/lib
+includedir=d:/MCQ-GENERATOR/mcq_generator/Library/include
 
 Name: zlib
 Description: zlib compression library

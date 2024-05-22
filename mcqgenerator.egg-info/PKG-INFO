@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mcqgenerator
+Version: 0.1
+Author: Dipak Adhikari
+Author-email: adhikarydeepak2002@gmail.com
+Requires-Dist: langchain
+Requires-Dist: langchain_community
+Requires-Dist: langchain_openai
+Requires-Dist: python-dotenv
+Requires-Dist: streamlit
