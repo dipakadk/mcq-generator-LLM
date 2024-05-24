@@ -6,19 +6,17 @@ from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import SequentialChain
 from langchain.chains import LLMChain
-from langchain.callbacks import get_openai_callback
+# from langchain.callbacks import get_openai_callback
 import os
 import json
 import pandas as pd
 import traceback
-import fitz
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # llm=ChatOpenAI(model="gpt-3.5-turbo",temperature=0.6)
 llm=ChatGoogleGenerativeAI(model="gemini-pro",temperature=0.7)
 
-with open("D:\\MCQ-GENERATOR\\Response.json","r") as f:
-    RESPONSE_JSON=json.load(f)
+
 
 TEMPLATE="""
 Text:{text}
@@ -85,17 +83,6 @@ generate_evaluate_chain=SequentialChain(chains=[mcq_chain,review_chain],input_va
 
 # final_quiz=json.loads(json_str)
 
-# quiz_table_data=[]
-# for key,value in final_quiz.items():
-#     mcq=value['mcq']
 
-#     options= " | ".join(
-#         [
-#             f"{a}: {b}"
-#             for a,b in value["options"].items()
-#         ]
-#     )
-#     correct=value["correct"]
-#     quiz_table_data.append({"Question no.":key,"MCQ":mcq,"Choices":options,"Correct":correct})
 
 
