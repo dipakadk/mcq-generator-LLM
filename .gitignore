@@ -1,2 +1,3 @@
 mcq_generator/
 .env
+src/__pycache__/
